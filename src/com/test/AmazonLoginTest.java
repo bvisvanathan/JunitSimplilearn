@@ -8,10 +8,11 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import io.github.bonigarcia.seljup.SeleniumJupiter;
 
+@ExtendWith(SeleniumJupiter.class)
 public class AmazonLoginTest {
 	
-	@ExtendWith(SeleniumJupiter.class)
-	public class AmazonLogin {
+	
+	
 	    
 	    @Test
 	    public void test(ChromeDriver driver) {
@@ -39,6 +40,6 @@ public class AmazonLoginTest {
 	            
 	        
 	    }
-	}
+	
 
 }
