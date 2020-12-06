@@ -8,7 +8,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import io.github.bonigarcia.seljup.SeleniumJupiter;
 
-@ExtendWith(SeleniumJupiter.class)
+//@ExtendWith(SeleniumJupiter.class)
+@ExtendWith(DriverProvider.class)
 public class AmazonLoginTest {
 	
 	
